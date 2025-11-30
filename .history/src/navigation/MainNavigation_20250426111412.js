@@ -1,0 +1,16 @@
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import LoginScreen from '../screens/LoginScreen';
+import SignupScreen from '../screens/SignupScreen';
+import FeedScreen from '../screens/FeedScreen';
+
+const Stack = createNativeStackNavigator();
+
+export default function MainNavigation() {
+  return (
+      <Stack.Navigator initialRouteName="LoginScreen" screenOptions={{headerShown:false}} >
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
+        <Stack.Screen name="SignupScreen" component={SignupScreen} />
+        <Stack.Screen name="FeedScreen" component={FeedScreen} />
+      </Stack.Navigator>
+  );
+}

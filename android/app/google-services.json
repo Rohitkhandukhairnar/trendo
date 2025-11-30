@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "365440365934",
+    "project_id": "trendo-e7c24",
+    "storage_bucket": "trendo-e7c24.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365440365934:android:f783d65f6ba58ff8bd7d7f",
+        "android_client_info": {
+          "package_name": "com.trendo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365440365934-asdq36ubquhj6gqd2gdcqkjublovrfvc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trendo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "365440365934-gtlu1r9vcorl47a90s3oqqipe88oo1d4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl1kS3W6Kl2FLf3MYE6A_c3_KxJAlsOfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365440365934-gtlu1r9vcorl47a90s3oqqipe88oo1d4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
